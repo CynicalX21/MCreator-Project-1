@@ -1,0 +1,256 @@
+{
+  "id_map": {
+    "ENTITY": 1
+  },
+  "mod_elements": [
+    {
+      "name": "Chugjug1",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chugjugbottle",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShieldSpring",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShieldSpringMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chugjug1FoodEaten",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chugjugwithyou",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chugbottlerecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Shieldbiome",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Springrock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spring1",
+      "type": "structure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chugjugsong",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Songplayed1",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChugjugsongRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scarammo",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SCAR",
+      "type": "gun",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "Mag",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "firstchugjug",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "chugjugsong",
+      "file": "eviathan_-_hug_ug_ith_ou_1",
+      "category": "record"
+    },
+    {
+      "name": "scarshot",
+      "file": "ar-epic-shot-1",
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.chugjugsong.name": "Chug Jug With You",
+      "item.mag.name": "Magazine",
+      "item.record.chugjugsong.desc": "THAT Song.",
+      "advancements.chugjugwithyou.title": "I really want to...",
+      "advancements.songplayed1.title": "King of Cringe",
+      "item.scarammo.name": "5.56mm Round",
+      "item.bullet.name": "Bullet",
+      "item.chugjugbottle.name": "Chugged Jug",
+      "item.scar.name": "SCAR",
+      "tile.springrock.name": "Spring Rock",
+      "item.chugjug1.name": "Blue Chug Jug",
+      "fluid.shieldspring": "ShieldSpring",
+      "advancements.songplayed1.descr": "You played a forbidden song. 1/3",
+      "advancements.chugjugwithyou.descr": "Drink a Chug Jug. Now, you\u0027re gaming!"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "theboyzmods",
+    "modName": "TheBoyzMods",
+    "version": "1.0.0",
+    "author": "Caden, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.mcreator.theboyzmods",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
